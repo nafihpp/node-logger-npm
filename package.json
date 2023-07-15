@@ -1,6 +1,6 @@
 {
   "name": "node-logger-middleware",
-  "version": "1.2.0",
+  "version": "1.3.0",
   "description": "node-logger-middleware used to log the request url, method and time and then saves it in server in log.txt",
   "main": "index.js",
   "keywords": ["node-log-middleware","log-information","node-logger","logger-middleware","npm-logger"],

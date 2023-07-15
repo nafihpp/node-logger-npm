@@ -3,16 +3,6 @@ const { format, parseISO } = require('date-fns');
 
 const logger = (req,res,next) =>{
     const currentTime = new Date();
-    const options = {
-        day: '2-digit',
-        month: '2-digit',
-        year: 'numeric',
-        hour: '2-digit',
-        minute: '2-digit',
-        hour12: true
-      };
-    const DateOptions = currentTime.toLocaleString(options);
-    const ParseDate = parseISO(DateOptions);
     const formattedDate = format(currentTime, 'dd-MM-yyyy hh:mm a');
 
     const currentReq = {

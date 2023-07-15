@@ -9,7 +9,6 @@ Logs the Request Method,Request URL, Date and Time and saves it into log.txt in 
 
 
 
-
 ## How to use?
 
 

@@ -11,6 +11,7 @@ Logs the Request Method,Request URL, Date and Time and saves it into log.txt in 
 
 ## How to use?
 
+Use it as a middleware in Node js application
 
 ```bash
   npm i node-logger-middleware

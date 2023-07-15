@@ -1,6 +1,6 @@
 {
   "name": "node-logger-middleware",
-  "version": "1.4.0",
+  "version": "1.5.0",
   "description": "node-logger-middleware used to log the request url, method and time and then saves it in server in log.txt",
   "main": "index.js",
   "keywords": ["node-log-middleware","log-information","node-logger","logger-middleware","npm-logger"],
@@ -10,6 +10,5 @@
   "author": "Mohammed Nafih Yuseph",
   "license": "ISC",
   "dependencies": {
-    "date-fns": "^2.30.0"
   }
 }

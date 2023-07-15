@@ -18,7 +18,7 @@ Use it as a middleware in Node js application
 ```
 
 ```bash
-  import {logger} from "node-logger-middleware"
+  const {logger} = require("node-logger-middleware");
 
   app.use(logger);
 ```
